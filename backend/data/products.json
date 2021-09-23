@@ -1,0 +1,122 @@
+[
+    {
+        "name":"SanDisk Ultra 128GB SDXC UHS-I Memory Card up to 800MB/s",
+        "price":"45.89",
+        "description" : "Ultra-fast cards (2) to take better pictures and Full HD videos (1) with your compact to mid-range point.",
+        "ratings":4.5,
+        "images": [{
+            "public_id": "products/tzfsnrli3szrdnb4jgge",
+            "url":"https://res.cloudinary.com/shopit/image/upload/v1606231282/products/tzfsnrli3szrdnb4jgge"
+        }],
+        "category":"Electronics",
+        "seller":"Ebay",
+        "stock": 50,
+        "numOfReviews": 32,
+        "reviews": []
+    },
+    {
+        "name":"Wireless Headphones",
+        "price":"89.89",
+        "description" : "Wireless Headphones, P47 Bluetooth Foldable Headset with Microphone Support FM Radio TF for PC TV Smart Phones & Tablets Etc",
+        "ratings":3.0,
+        "images": [{
+            "public_id": "products/tzfsnrli3szrrg4jgge",
+            "url":"https://static-01.daraz.pk/p/6952506f7148b4561c50afc4003410c2.jpg_200x200q80.jpg_.webp"
+        }],
+        "category":"Electronics",
+        "seller":"Daraz",
+        "stock": 4,
+        "numOfReviews": 288,
+        "reviews": []
+    },
+    {
+        "name":"Changhong HD LED TV",
+        "price":"899.89",
+        "description" : "Changhong Ruba L32X6 32 inch HD LED TV-Black",
+        "ratings":3.0,
+        "images": [{
+            "public_id": "products/tzfsnrli3szrrg4jtqqtrge",
+            "url":"https://static-01.daraz.pk/p/745363a82c225bcc0dde2a746b230f30.jpg_200x200q80.jpg_.webp"
+        }],
+        "category":"Electronics",
+        "seller":"Daraz",
+        "stock": 10,
+        "numOfReviews": 288,
+        "reviews": []
+    },
+    {
+        "name":"LED Watch",
+        "price":"899.89",
+        "description" : "Best Quality Square Digital Silicone Sports Watch For Men&Women",
+        "ratings":3.0,
+        "images": [{
+            "public_id": "products/tzfsnrli3szrrghhhjgge",
+            "url":"https://static-01.daraz.pk/p/cf682ae4aa387bd0c6c8762ca20aadf7.jpg_200x200q80.jpg_.webp"
+        }],
+        "category":"Sports",
+        "seller":"Ebay",
+        "stock": 10,
+        "numOfReviews": 108,
+        "reviews": []
+    },
+    {
+        "name":"Smart Watch",
+        "price":"109.89",
+        "description" : "NEW LED digital Kids Watches for Girls/Boys Sport Electronic Wrist watch",
+        "ratings":4.4,
+        "images": [{
+            "public_id": "products/tzfsnrli3tttrghhhjgge",
+            "url":"https://static-01.daraz.pk/p/762780ed1df7c032c12d28f13beaac0d.jpg_200x200q80.jpg_.webp"
+        }],
+        "category":"Sports",
+        "seller":"Daraz",
+        "stock": 9,
+        "numOfReviews": 66,
+        "reviews": []
+    },
+    {
+        "name":"Joseph Murphy",
+        "price":"20.90",
+        "description" : "The Power Of Your Subconscious Mind",
+        "ratings":4.8,
+        "images": [{
+            "public_id": "products/tzfsnrli3tttrghhhdfgge",
+            "url":"https://static-01.daraz.pk/p/92e8248ad1b00cf1fdf6e67dfd168c0f.jpg_200x200q80.jpg_.webp"
+        }],
+        "category":"Books",
+        "seller":"Amazon",
+        "stock": 3,
+        "numOfReviews": 45,
+        "reviews": []
+    },
+    {
+        "name":"Panoramic camera",
+        "price":"20.90",
+        "description" : "Hikvision Turbo HD .360 Panoramic Camera 2MP CCTV 1080P Cam 1.7mm",
+        "ratings":4.9,
+        "images": [{
+            "public_id": "products/tzfsnrlif7ytrghhhdfgge",
+            "url":"https://static-01.daraz.pk/p/0f7eb20515ebebb092bff1722ca3740a.jpg_200x200q80.jpg_.webp"
+        }],
+        "category":"Cameras",
+        "seller":"Ebay",
+        "stock": 5,
+        "numOfReviews": 84,
+        "reviews": []
+    },
+    {
+        "name":"National Achaar",
+        "price":"8.90",
+        "description" : "Ahmed Mixed Pickle in Oil (Hyderabadi Taste) - 310g",
+        "ratings":3.5,
+        "images": [{
+            "public_id": "products/tzfsnrligrytrghhhdfgge",
+            "url":"https://static-01.daraz.pk/p/a194c02b610d906608a3900bf6cb98be.jpg_200x200q80.jpg_.webp"
+        }],
+        "category":"Food",
+        "seller":"Amazon",
+        "stock": 3,
+        "numOfReviews": 33,
+        "reviews": []
+    }
+]
