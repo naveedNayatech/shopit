@@ -47,7 +47,8 @@ nav {
 
 #login_btn,
 #view_btn {
-  background-color: #febd69;
+/*   background-color: #febd69; */
+  background-color: #fff;
   padding: 0.4rem 1.8rem;
   font-family: calibri;
 }
