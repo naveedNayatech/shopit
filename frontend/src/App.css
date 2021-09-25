@@ -48,13 +48,31 @@ nav {
 #login_btn,
 #view_btn {
   background-color: #febd69;
+  /* background-color: #FFF; */
   padding: 0.4rem 1.8rem;
   font-family: calibri;
+
 }
 
 #cart {
   font-size: 1rem;
   color: white;
+}
+
+.roundedIcon{
+  background-color: #fa9c23;
+  border-radius: 50%;
+  color: #FFF;
+  padding: 10px;
+  font-size: 20px
+}
+
+.latestProductHeading{
+  width: 300px;
+  background-color:#232f3e;
+  padding: 6px;
+  border-radius: 50px;
+  color: #FFF;
 }
 
 #cart_count {
@@ -116,10 +134,12 @@ nav {
 /* Footer */
 footer {
   margin-top: 8rem;
-  color: grey;
+  color: #FFF;
   bottom: 0;
   width: 100%;
+  background-color: #fa9c23;
 }
+
 
 /* Ratings */
 

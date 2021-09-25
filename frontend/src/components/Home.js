@@ -9,10 +9,12 @@ import { useAlert } from 'react-alert';
 import Pagination from 'react-js-pagination';
 import Slider from 'rc-slider';
 import 'rc-slider/assets/index.css';
+import { Carousel } from 'react-bootstrap';
+import $ from 'jquery';
+
 
 const { createSliderWithTooltip } = Slider;
 const Range = createSliderWithTooltip(Slider.Range);
-
 
 
 const Home = ({ match }) => {
@@ -66,14 +68,28 @@ const Home = ({ match }) => {
         setCurrentPage(pageNumber);
     }
 
-    console.log('categories are '+ categories);
     return (
         <Fragment>
             {loading == true ? <Loader /> : (
                 <Fragment>
-                     <MetaData title={'Buy Best Products Online'}/>
-                        <h1 id="products_heading">Latest Products</h1>
+                     <MetaData title={'Home'}/>
+                        
+                        {/* Carousel Slider */}
+                        <div>
+                            <Carousel pause='hover' className="carouselItems" id="carouselItems">
+                                    <Carousel.Item key="01">
+                                        <img className="d-block w-100" src="https://icms-image.slatic.net/images/ims-web/5dbbbfd5-5809-43b5-bdd5-77f92f5b17f3.png" alt="Slider_Image_01"></img>
+                                    </Carousel.Item>
 
+                                    <Carousel.Item key="02">
+                                        <img className="d-block w-100" src="https://icms-image.slatic.net/images/ims-web/1db84e50-c786-4e0d-9eec-37f5c84876ad.jpg" alt="Slider_Image_02"></img>
+                                    </Carousel.Item>
+                            </Carousel> 
+                        </div>
+
+                        <div className="container container-fluid">
+                            <h3 id="products_heading" className="latestProductHeading"><i className="fa fa-pencil roundedIcon" ></i> Latest Products</h3>
+                        </div>
                         <section id="products" className="container mt-5">
                             <div className="row">
 

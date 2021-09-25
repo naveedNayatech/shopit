@@ -56,7 +56,6 @@ function App() {
       <div className="App">
         <Header />  
         <div className="container container-fluid">
-          <Route path="/" component={Home} exact />
           <Route path="/search/:keyword" component={Home} />
           <Route path="/login" component={Login} exact/>
           <ProtectedRoute path="/me" component={Profile} exact/>
@@ -89,11 +88,11 @@ function App() {
         <ProtectedRoute path="/admin/order/:id" isAdmin={true} component={ProcessOrder} exact/>
         <ProtectedRoute path="/admin/users" isAdmin={true} component={UsersList} exact/>
         <ProtectedRoute path="/admin/reviews" isAdmin={true} component={ProductReviews} exact/>
-          
-        
-        {isAuthenticated && user?.role === 'admin' ? null : <Footer />}
-          
+                    
       </div>
+      <Route path="/" component={Home} exact />
+      {isAuthenticated && user?.role === 'admin' ? null : <Footer />}
+
     </Router>
   ); 
 }
